@@ -53,6 +53,10 @@
     object-fit: contain;
   }
 
+  .links {
+    flex-direction: row;
+  }
+
   .maintext {
     font-weight: 600;
     font-size: 3rem;
