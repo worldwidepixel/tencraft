@@ -55,6 +55,8 @@
 
   .links {
     flex-direction: row;
+    display: flex;
+    gap: 5px;
   }
 
   .maintext {
