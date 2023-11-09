@@ -49,8 +49,8 @@
 
   .mainbanner {
     width: 30rem;
-    aspect-ratio: 850/261;
     transition-duration: 0.4s;
+    object-fit: contain;
   }
 
   .maintext {
