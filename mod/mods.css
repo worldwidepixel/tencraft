@@ -106,7 +106,8 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #333;
+  background-color: rgba(20, 20, 20, 0.75);
+  backdrop-filter: blur(20px);
   color: white;
   text-align: center;
 }
