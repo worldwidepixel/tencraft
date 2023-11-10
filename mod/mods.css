@@ -58,9 +58,11 @@ body {
 .navbar .icon {
   display: none;
   transition-duration:0.4s;
+  height: 22px;
+  margin-top: -2.5px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .navbar a:not(:first-child,:nth-child(2)) {display: none;}
   .navbar a.icon {
     float: right;
@@ -69,7 +71,7 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .navbar.responsive {position: relative;}
   .navbar.responsive .icon {
     position: absolute;
@@ -88,9 +90,43 @@ body {
 }
 
 .article {
-	margin-left:5%;
-	margin-top:5%;
-	margin-right:5%;
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.modData {
+  padding: 20px;
+  background-color: #e5e7eb;
+  border-radius: 26px;
+  height: fit-content;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.badge {
+  border-radius: 16px;
+}
+
+.packbanner {
+  width: 200px;
+  border-radius: 16px;
+  border-color: white;
+  border-style: solid;
+}
+
+.packimg {
+  height: 5rem;
+  margin-top: -100px;
+  border-radius: 16px;
+  border-color: white;
+  border-style: solid;
+
 }
 
 .bold {
