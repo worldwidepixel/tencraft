@@ -67,10 +67,15 @@
     -webkit-text-fill-color: transparent;
   }
 
+  .center {
+    text-align: center;
+  }
+
   .landingText {
     font-size: 1.5rem;
     transition-duration: 0.4s;
   }
+
 
   .gitlink {
     text-decoration: none;
