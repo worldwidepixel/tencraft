@@ -132,6 +132,17 @@ body {
   height: auto;
 }
 
+.adContainer img {
+  border-radius: 16px;
+  max-width: 100%;
+  height: auto;
+  border-color: #e5e7eb;
+  border-style: solid;
+  border-width: 2px;
+  background-color: rgba(20, 20, 20, 0.75);
+  backdrop-filter: blur(20px);
+}
+
 .adContainer {
   display: flex;
   flex-direction: row;
