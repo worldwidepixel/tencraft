@@ -96,17 +96,27 @@ body {
   gap: 2rem;
 }
 
+.modText {
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.1);
+  background-color:white;
+  padding: 20px;
+  border-radius: 26px;
+}
+
 .modData {
   padding: 20px;
   background-color: #e5e7eb;
   border-radius: 26px;
   height: fit-content;
-
+  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 20px;
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.1);
 }
 
 .badge {
