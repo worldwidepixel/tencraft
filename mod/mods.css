@@ -110,6 +110,13 @@ body {
 
 }
 
+.packImg {
+  width: auto !important; /*override the width below*/
+  width: 100%;
+  max-width: 678px;
+  clear: both;
+}
+
 .modText {
   border-radius: 26px;
   display: flex;
