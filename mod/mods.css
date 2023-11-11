@@ -89,7 +89,7 @@ body {
 
 }
 
-@media (max-width: 550px) {
+@media (max-width: 625px) {
   .article {
     padding: 5%;
     display: flex;
@@ -99,7 +99,7 @@ body {
 
 }
 
-@media (min-width: 550px) {
+@media (min-width: 625px) {
 
 .article {
   padding: 5%;
@@ -113,8 +113,10 @@ body {
 .packImg {
   width: auto !important; /*override the width below*/
   width: 100%;
-  max-width: 678px;
   clear: both;
+  height: auto;
+  max-width: 100%;
+
 }
 
 .modText {
