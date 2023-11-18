@@ -1,0 +1,189 @@
+
+  html {
+    height: 100%;
+  }
+
+  :root {
+  --altoviolet: #6900ff;
+  --altomagenta: #c800ff;
+  }
+
+  body {
+    padding:1rem;
+    height: calc(100% - 3rem);
+    font-family: Inter, sans-serif;
+  }
+
+
+#gradient-canvas {
+  border-radius: 1rem;
+  width: 100%;
+  height: 100%;
+  --gradient-color-1: #f7185b;
+  --gradient-color-2: #f46cc9;
+  --gradient-color-3: #ffebf8;
+  --gradient-color-4: #ff5c5c;
+}
+
+  .modInfoContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    border-radius: 2rem;
+    justify-content: center;
+    max-width: 45rem;
+  }
+
+  .modDataContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media (max-width: 700px) {
+    .modInfo {
+      display: none;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .modName {
+      font-size: 1rem !important;
+    }
+  }
+
+  .modImg {
+    max-width: 4rem;
+    border-radius: 1rem;
+  }
+
+  .modInfo {
+    text-align: left;
+  }
+
+  .modName {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .downloadButton {
+    background-color: #00af5c;
+    padding: 0.75rem;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.25rem;
+    color: white;
+    border-radius: 1rem;
+
+    transition-duration: 0.2s;
+  }
+
+  .downloadButton:active {
+    transform: scale(0.9);
+  }
+
+  .modLink {
+    text-decoration: none;
+    border-radius: 1rem;
+  }
+
+  .mediaContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    width:calc(100% - 3rem);
+    height:calc(100% - 3rem);
+  }
+
+  .landingContent {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding:20px;
+    backdrop-filter: blur(20px);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .mainbanner {
+    width: 30rem;
+    transition-duration: 0.4s;
+    object-fit: contain;
+  }
+
+  .links {
+    flex-direction: row;
+    display: flex;
+    gap: 5px;
+  }
+
+  .maintext {
+    font-weight: 600;
+    font-size: 3rem;
+    background-image: linear-gradient(90deg, rgba(255,0,90,1) 0%, rgba(255,0,176,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .small {
+    font-size: 1rem !important;
+  }
+
+  .landingText {
+    font-size: 2rem;
+    transition-duration: 0.4s;
+  }
+
+
+  .gitlink {
+    text-decoration: none;
+    color:black;
+    transition-duration: 0.4s;
+    padding: 0.5rem;
+    border-radius: 100%;
+    width: 24px;
+    height:24px;
+  }
+
+  .gitlink:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  @media (max-width: 700px) and (min-width: 450px) {
+
+    .mainbanner {
+      width: 20rem;
+      transition-duration: 0.4s;
+      aspect-ratio: 850/261;
+    }
+
+  }
+
+  @media (max-width: 450px) {
+
+    .mainbanner {
+      width: 15rem;
+      transition-duration: 0.4s;
+      aspect-ratio: 850/261;
+    }
+
+    .landingText {
+      font-size: 1.5rem;
+      transition-duration: 0.4s;
+    }
+
+  }
