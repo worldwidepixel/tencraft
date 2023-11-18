@@ -35,7 +35,7 @@
     backdrop-filter: blur(20px);
     border-radius: 2rem;
     justify-content: center;
-    max-width: 45rem;
+    max-width: 50rem;
   }
 
   .modDataContainer {
